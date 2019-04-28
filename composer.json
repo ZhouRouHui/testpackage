@@ -1,0 +1,14 @@
+{
+    "name": "zhourouhui/testpackage",
+    "description": "this is a test package to package.org",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhourouhui",
+            "email": "zhourouhui@ahaschool.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
