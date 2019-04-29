@@ -6,7 +6,7 @@ class TestPackage {
 
 	function __construct (string $name = '', int $age = 0) 
 	{
-		if (!empyt($name)) {
+		if (!empty($name)) {
 			$this->name = $name;
 		}
 		if ($age > 0) {
