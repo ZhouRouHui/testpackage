@@ -4,7 +4,7 @@ class TestPackage {
 	public $name = 'zhang san';
 	public $age = 18;
 
-	function __constroct (string $name = '', int $age = 0) 
+	function __construct (string $name = '', int $age = 0) 
 	{
 		if (!empyt($name)) {
 			$this->name = $name;
